@@ -1,48 +1,58 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adicionado para melhor controle de layout */
+}
+.fundo {
+    background-image: linear-gradient(45deg, black, rgb(134, 4, 248));
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
 }
-
 .calculadora {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
-
 #visor {
+    background-color: white;
     width: 100%;
     height: 50px;
-    text-align: right;
-    font-size: 24px;
     margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
     padding: 10px;
-    box-sizing: border-box;
-}
-
-.botoes {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-}
-
-.botoes button {
-    padding: 20px;
-    font-size: 18px;
     border: none;
     border-radius: 5px;
+}
+.button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
     cursor: pointer;
-    background-color: #e0e0e0;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
     transition: background-color 0.3s;
 }
-
-.botoes button:hover {
-    background-color: #d0d0d0;
+.button:hover {
+    background-color: black;
 }
-
-.botoes button:active {
-    background-color: #c0c0c0;
+.igual {
+    height: 130px;
+    background-color: rgb(255, 94, 0);
+}
+.igual:hover {
+    background-color: rgb(220, 80, 0);
+}
+.zero {
+    width: 125px;
 }

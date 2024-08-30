@@ -1,20 +1,22 @@
-const visor = document.getElementById('visor');
-const botoes = document.querySelectorAll('.botoes button');
+function insert(num) {
+    var visor = document.getElementById('visor');
+    visor.value = visor.value + num;
+}
 
-botoes.forEach(botao => {
-    botao.addEventListener('click', () => {
-        const valorBotao = botao.textContent;
+function clean() {
+    document.getElementById('visor').value = "";
+}
 
-        if (valorBotao === 'C') {
-            visor.value = '';
-        } else if (valorBotao === '=') {
-            try {
-                visor.value = eval(visor.value);
-            } catch {
-                visor.value = 'Erro';
-            }
-        } else {
-            visor.value += valorBotao;
-        }
-    });
-});
+function back() {
+    var visor = document.getElementById('visor');
+    visor.value = visor.value.slice(0, -1); // Corrigido para remover o último caractere
+}
+
+function calcular() {
+    var visor = document.getElementById('visor');
+    try {
+        visor.value = eval(visor.value); // Corrigido para calcular a expressão
+    } catch (e) {
+        visor.value = "Erro"; // Mensagem de erro caso a expressão seja inválida
+    }
+}
