@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 A calculadora é um projeto de replicação de uma calculadora comun
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.png" width="100%">
+  <img alt="projeto Calculadora" src=".github/preview.png" width="100%">
 </p>
 
 ## 🔖 Layout
