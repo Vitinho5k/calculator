@@ -32,7 +32,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-A caulculadora é um projeto de replicação de uma calculadora comun
+A calculadora é um projeto de replicação de uma calculadora comun
+
+<p align="center">
+  <img alt="projeto DevLinks" src=".github/preview.png" width="100%">
+</p>
 
 ## 🔖 Layout
 
