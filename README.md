@@ -36,7 +36,7 @@ A calculadora é um projeto de replicação de uma calculadora comun
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](###). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto.
 
 ## :memo: Licença
 
