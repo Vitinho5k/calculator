@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-A calculadora é um projeto de replicação de uma calculadora comun
+A calculadora é um projeto de replicação de uma calculadora comum
 
 <p align="center">
   <img alt="projeto Calculadora" src=".github/preview.png" width="100%">
